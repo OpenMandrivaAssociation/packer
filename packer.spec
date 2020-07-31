@@ -24,6 +24,8 @@ BuildRequires:	git-core
 Packer automates the creation of any type of cloud machine image.
 
 %prep
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 %autosetup -p1 -a 1
 
 %build
