@@ -1,0 +1,12 @@
+diff -up packer-1.6.1/version/version.go.omv~ packer-1.6.1/version/version.go
+--- packer-1.6.1/version/version.go.omv~	2020-07-31 22:21:03.724948672 +0200
++++ packer-1.6.1/version/version.go	2020-07-31 22:21:10.618919263 +0200
+@@ -14,7 +14,7 @@ const Version = "1.6.1"
+ // A pre-release marker for the version. If this is "" (empty string)
+ // then it means that it is a final release. Otherwise, this is a pre-release
+ // such as "dev" (in development), "beta", "rc1", etc.
+-const VersionPrerelease = ""
++const VersionPrerelease = "OpenMandriva"
+ 
+ func FormattedVersion() string {
+ 	var versionString bytes.Buffer
