@@ -3,7 +3,7 @@
 Summary:	Cloud image build tool
 Name:		packer
 Version:	1.6.1
-Release:	1
+Release:	2
 Source0:	https://github.com/hashicorp/packer/archive/v%{version}.tar.gz
 License:	MPL 2.0
 Group:		Servers
